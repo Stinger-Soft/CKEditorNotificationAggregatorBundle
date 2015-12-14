@@ -1,0 +1,37 @@
+{
+	"name" : "stinger/ckeditor-notificationaggregator-bundle",
+	"type" : "symfony-bundle",
+	"description" : "Symfony2 Bundle to integrate the CKEditor plugin Notification Aggregator",
+	"keywords" : [
+		"ckeditor",
+		"notification",
+		"aggregator",
+		"plugin",
+		"symfony"
+	],
+	"homepage" : "http://ckeditor.com/addon/notificationaggregator",
+	"license" : [
+		"LGPL-3.0",
+		"GPL-3.0",
+		"MPL",
+		"CKSource CDL"
+	],
+	"authors" : [{
+			"name" : "Oliver Kotte",
+			"email" : "oliver.kotte@stinger-soft.net",
+			"homepage" : "http://www.stinger-soft.net"
+		}
+	],
+	"require" : {
+		"symfony/framework-bundle" : ">=2.1"
+	},
+	"suggest" : {
+		"Trsteel/ckeditor-bundle" : "The CKEditor Bundle we're using ;)"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Stinger\\CKEditorNotificationAggregatorBundle" : ""
+		}
+	},
+	"target-dir" : "Stinger/CKEditorNotificationAggregatorBundle"
+}
